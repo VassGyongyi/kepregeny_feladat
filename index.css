@@ -78,6 +78,30 @@ a:hover {
   z-index: 1;
 }
 
+main{
+    
+    width: 100%;
+    height: auto;
+    min-height: 900px;
+    
+}
+nav{
+    background-color: rgb(53, 53, 97);
+    padding: 10px 0 10px ;
+    margin-top: 10px;
+    width: 100%;   
+}
+
+
+nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    align-items: center;
+    justify-content: space-evenly;
+}    
+
+
 /* Links inside the dropdown */
 .dropdown-content a {
   color: white;
@@ -111,6 +135,8 @@ article {
   justify-content: space-evenly;
   padding: 30px;
 }
+
+
 article div img {
   height: auto;
   width: 300px;
@@ -119,11 +145,15 @@ article div img {
   margin-top: 30px;
   padding: 20px;
 }
+
+
 footer {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+
 @media screen and (max-width: 700px) {
   nav ul {
     flex-direction: column;
@@ -131,7 +161,28 @@ footer {
     align-items: center;
     justify-content: space-evenly;
   }
+  
   header h1 {
     font-size: 8rem;
   }
 }
+
+
+@media screen and (max-width: 700px){
+    nav ul{
+        flex-direction: column;
+        align-items: stretch;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    header h1{
+        font-size: 8rem;          
+    }
+}
+
+.donut-pic{
+    width: 340px;
+    height: auto;
+} 
+

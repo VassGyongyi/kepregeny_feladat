@@ -1,5 +1,17 @@
 .form{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-content: center;
+}
+
+article{
+    font-size: 25px;
+}
+
+.form div{
+    padding-bottom: 30px;
+}
+
+article div h4{
+   font-size: 50px;
 }
