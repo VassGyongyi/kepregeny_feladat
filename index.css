@@ -36,12 +36,10 @@ nav{
     background-color: rgb(53, 53, 97);
     padding: 10px 0 10px ;
     margin-top: 10px;
-    width: 100%;
-   
-    
-    
-   
+    width: 100%;   
 }
+
+
 nav ul{
     display: flex;
     flex-flow: row wrap;
@@ -147,3 +145,8 @@ footer{
            
     }
 }
+
+.donut-pic{
+    width: 340px;
+    height: auto;
+} 
