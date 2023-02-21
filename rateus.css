@@ -66,6 +66,7 @@ textarea:hover{
     font-size: 19px;
     cursor: pointer;
     background-color: #e8e8e1;
+    color: black;
 }
 
 .submit:hover{
