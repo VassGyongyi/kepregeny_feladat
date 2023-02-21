@@ -39,62 +39,83 @@
 
       <article class="form">
         <div>
-            <h4>Tell us your opinion!</h4>
+          <h4>Tell us your opinion!</h4>
             <p>Please, take a few minutes to give us feedback about our work!</p>
         </div>
          
-        <form action="">
-            <!--  Radio -->
-            <table>
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th><label for=""></label>Very good</th>
-                        <th><label for=""></label>Just good</th>
-                        <th><label for=""></label>Good enough</th>
-                        <th><label for=""></label>Poor</th>
-                        <th><label for=""></label>Very poor</th>
-                    </tr>
-                </thead>
-
-                <tr>
-                    <td>How would you rate our comic?</td>
-                    <td><input type="radio" name="" id=""></td>
-                    <td><input type="radio" name="" id=""></td>
-                    <td><input type="radio" name="" id=""></td>
-                    <td><input type="radio" name="" id=""></td>
-                    <td><input type="radio" name="" id=""></td>
-                    <td><input type="radio" name="" id=""></td>
-                </tr>
-
-                <tr>
-                    <td>How would you rate our website?</td>
-                    <td><input type="radio" name="" id=""></td>
-                    <td><input type="radio" name="" id=""></td>
-                    <td><input type="radio" name="" id=""></td>
-                    <td><input type="radio" name="" id=""></td>
-                    <td><input type="radio" name="" id=""></td>
-                    <td><input type="radio" name="" id=""></td> 
-                </tr>
+        <form action="/action_page.php">
+          <fieldset>
             
-            </table><br><br>
-            <!-- Radio -->
+            <legend></legend>
+          <!--Radiobutton form -->
+        
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Big nose</th>
+                <th>Donut</th>
+                <th>Tap tap</th>
+              </tr>
+            </thead>
+            <tr>
+              <td>Which is your favorite story?</td>
+              <td>
+                <input type="radio" id="bignose" name="fav_comic" value="bignose">
+                <label for="bignose"></label>
+              </td>
 
+              <td>
+                <input type="radio" id="donut" name="fav_comic" value="donut">
+                <label for="donut"></label>
+              </td>
 
+              <td>
+                <input type="radio" id="taptap" name="fav_comic" value="taptap">
+                <label for="taptap"></label>
+              </td>
+            </tr>
+            <!--Radiobutton form -->
+          </table><br><br>
+        
+          
+          <!--Checkbox-->
+          <fieldset>
+          <legend>What do you like in the page? </legend>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1">Pictures</label>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+          <label for="vehicle2">Story</label>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3"> Effects</label>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3">Colours</label>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3">Design</label>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3">Layout</label>
+          </fieldset><br><br>
+          <!--Checkbox-->
+         
             <!-- textarea -->
-            <p>Is there anything we can improve? Write to us!</p>
-            <textarea name="message" rows="10" cols="60">Leave a comment here!</textarea>
+            <p class="textarea_p">Is there anything we can improve? Write to us!</p>
+            <textarea name="message" rows="10" cols="100" placeholder="Leave a comment here!"></textarea>
             <br><br>   
             <!-- textarea -->
 
+
             <!-- e-mail -->
-            <label for="email">E-mail:</label><br>
+            <label for="email">E-mail</label><br>
             <p>If you like to enter your email:</p>
-            <input type="email" id="email" name="email" value="writesomething@gmail.com"><br><br>
+            <input type="email" id="email" name="email" placeholder="name@gmail.com"><br><br>
             <!-- e-mail -->
 
-            <input type="submit" value="Submit">
-        </form>
+            <input type="submit" value="Submit" class="submit">
+          </fieldset>
+      
+          </form>
+
+
       </article>
 
       <footer><h3>Created by Bea & Gyöngyi</h3></footer>
