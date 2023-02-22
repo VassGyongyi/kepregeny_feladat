@@ -1,7 +1,6 @@
 .comics_3 img {
   width: 250px;
   height: 220px;
-  border: none;
   margin: 0;
 }
 
@@ -57,8 +56,9 @@
 
 @media screen and (max-width: 900px) {
   .comics_3 img {
-    padding: 0px;
-    margin: 0;
+    padding: 2px;
+    border-radius: 6px;
+    margin: 3px;
   }
   .img_1,
   .img_2,
