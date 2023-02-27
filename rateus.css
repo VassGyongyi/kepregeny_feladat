@@ -9,9 +9,7 @@ article{
     vertical-align:bottom;
 }
 
-.form div{
-    padding-bottom: 30px;
-}
+
 
 article div h4{
    font-size: 50px;
@@ -86,6 +84,15 @@ fieldset{
     padding: 30px;
     border: 4px solid black;
     border-radius: 10px; 
+    background-color: #908f8f; 
+}
+
+fieldset h4{
+    font-size: 54px;
+}
+
+fieldset p{
+    padding-bottom: 15px;
 }
 
 @media screen and (max-width: 580px){
